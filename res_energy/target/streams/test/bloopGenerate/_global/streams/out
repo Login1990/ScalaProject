@@ -1,0 +1,4 @@
+[debug] [res_energy-test] Classpath dependencies List()
+[debug] [res_energy-test] Dependencies from configurations List(res_energy)
+[debug] Bloop wrote the configuration of project 'res_energy-test' to 'C:\Users\Lev\Desktop\Scala Project\res_energy\.bloop\res_energy-test.json'
+[success] Generated .bloop\res_energy-test.json

@@ -1,0 +1,899 @@
+2023.05.13 23:09:12 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Lev\Desktop\Scala Project\res_energy' for client Visual Studio Code 1.77.3.
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Lev\Desktop\Scala Project\res_energy\.metals\metals (H2 2.1)
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.017s)
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+мая 13, 2023 11:09:13 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.053s)
+2023.05.13 23:09:13 INFO  time: initialize in 0.73s
+2023.05.13 23:09:14 WARN  Build server is not auto-connectable.
+2023.05.13 23:09:14 WARN  no build target for: C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Main.scala
+2023.05.13 23:09:27 INFO  no build target found for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.13 23:09:29 INFO  time: code lens generation in 14s
+2023.05.13 23:09:29 INFO  time: code lens generation in 8.53s
+2023.05.13 23:09:44 WARN  no build target for: C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\project.scala
+2023.05.13 23:12:40 WARN  no build target for: C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Main.scala
+2023.05.13 23:12:43 WARN  no build target for: C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Main.scala
+2023.05.13 23:12:54 INFO  running 'C:\Program Files (x86)\Java\jre-1.8\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Lev\AppData\Local\Temp\metals4176862939469408608\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.05.13 23:12:55 ERROR [info] [launcher] getting org.scala-sbt sbt 1.8.2  (this may take some time)...
+2023.05.13 23:13:56 ERROR [info] [launcher] getting Scala 2.12.17 (for sbt)...
+2023.05.13 23:13:58 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_371)
+2023.05.13 23:14:02 INFO  [info] loading settings for project res_energy-build-build from metals.sbt ...
+2023.05.13 23:14:02 INFO  [info] loading project definition from C:\Users\Lev\Desktop\Scala Project\res_energy\project\project
+2023.05.13 23:14:14 INFO  [info] loading settings for project res_energy-build from metals.sbt ...
+2023.05.13 23:14:14 INFO  [info] loading project definition from C:\Users\Lev\Desktop\Scala Project\res_energy\project
+2023.05.13 23:14:25 INFO  [success] Generated .bloop\res_energy-build.json
+2023.05.13 23:14:25 INFO  [success] Total time: 12 s, completed 13.05.2023 23:14:25
+2023.05.13 23:14:29 INFO  [info] loading settings for project res_energy from build.sbt ...
+2023.05.13 23:14:29 INFO  [info] set current project to hello-world (in build file:/C:/Users/Lev/Desktop/Scala%20Project/res_energy/)
+2023.05.13 23:14:58 INFO  [success] Generated .bloop\res_energy-test.json
+2023.05.13 23:14:58 INFO  [success] Generated .bloop\res_energy.json
+2023.05.13 23:14:58 INFO  [success] Total time: 29 s, completed 13.05.2023 23:14:58
+2023.05.13 23:14:58 INFO  time: ran 'sbt bloopInstall' in 2m3s
+2023.05.13 23:14:58 INFO  Attempting to connect to the build server...
+2023.05.13 23:14:58 INFO  Detected non existing java path in C:\Users\Lev\.bloop\bloop.json file
+2023.05.13 23:14:58 INFO  Replacing it with java home at C:\Program Files (x86)\Java\jre-1.8
+2023.05.13 23:15:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lev\Desktop\Scala Project\res_energy\.metals\bsp.trace.json or C:\Users\Lev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.13 23:15:24 INFO  Attempting to connect to the build server...
+2023.05.13 23:15:24 INFO  Bloop uses C:\Program Files (x86)\Java\jre-1.8 defined at C:\Users\Lev\.bloop\bloop.json
+2023.05.13 23:15:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lev\Desktop\Scala Project\res_energy\project\.metals\bsp.trace.json or C:\Users\Lev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.13 23:15:44 ERROR Timeout waiting for 'build/initialize' response
+2023.05.13 23:15:44 WARN  Retrying connection to the build server Bloop
+2023.05.13 23:15:44 INFO  Bloop uses C:\Program Files (x86)\Java\jre-1.8 defined at C:\Users\Lev\.bloop\bloop.json
+2023.05.13 23:15:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lev\Desktop\Scala Project\res_energy\project\.metals\bsp.trace.json or C:\Users\Lev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.13 23:16:04 ERROR Timeout waiting for 'build/initialize' response
+2023.05.13 23:16:04 WARN  Retrying connection to the build server Bloop
+2023.05.13 23:16:04 INFO  Bloop uses C:\Program Files (x86)\Java\jre-1.8 defined at C:\Users\Lev\.bloop\bloop.json
+2023.05.13 23:16:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lev\Desktop\Scala Project\res_energy\project\.metals\bsp.trace.json or C:\Users\Lev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.13 23:16:04 INFO  time: Connected to build server in 1m5s
+2023.05.13 23:16:04 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.13 23:16:04 INFO  time: Imported build in 0.21s
+2023.05.13 23:16:24 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre-1.8\src.zip, C:\Program Files (x86)\Java\jre-1.8\lib\src.zip. Java symbols will not be available.
+2023.05.13 23:16:28 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre-1.8\src.zip, C:\Program Files (x86)\Java\jre-1.8\lib\src.zip. Java symbols will not be available.
+2023.05.13 23:16:28 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre-1.8\src.zip, C:\Program Files (x86)\Java\jre-1.8\lib\src.zip. Java symbols will not be available.
+2023.05.13 23:16:28 INFO  time: indexed workspace in 23s
+2023.05.13 23:16:29 INFO  compiling res_energy (2 scala sources)
+2023.05.13 23:16:35 INFO  Deduplicating compilation of res_energy from bsp client 'Metals 0.11.12' (since 1m 27.646s)
+2023.05.13 23:16:35 INFO  compiling res_energy (2 scala sources)
+2023.05.13 23:16:43 INFO  time: compiled res_energy in 8.43s
+2023.05.13 23:16:45 INFO  compiling res_energy (2 scala sources)
+2023.05.13 23:16:45 INFO  time: compiled res_energy in 0.66s
+мая 13, 2023 11:16:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 474
+мая 13, 2023 11:16:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 476
+2023.05.13 23:19:48 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:48 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:50 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:50 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:50 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:51 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:52 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:52 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:52 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:19:52 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Main.scala:2:19: stale bloop error: not found: type REPS
+  val hello = new REPS
+                  ^^^^
+2023.05.13 23:20:03 INFO  compiling res_energy (2 scala sources)
+2023.05.13 23:20:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.13 23:20:07 INFO  time: compiled res_energy in 4.03s
+2023.05.14 18:22:52 INFO  compiling res_energy (1 scala source)
+2023.05.14 18:22:53 INFO  time: compiled res_energy in 1.18s
+2023.05.14 18:22:55 INFO  compiling res_energy (3 scala sources)
+2023.05.14 18:22:55 INFO  time: compiled res_energy in 0.26s
+мая 14, 2023 6:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 714
+2023.05.14 18:32:28 INFO  compiling res_energy (3 scala sources)
+2023.05.14 18:32:31 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.14 18:32:31 INFO  time: compiled res_energy in 2.42s
+2023.05.14 18:34:15 INFO  compiling res_energy (1 scala source)
+2023.05.14 18:34:15 INFO  time: compiled res_energy in 0.94s
+2023.05.14 18:34:29 INFO  compiling res_energy (1 scala source)
+2023.05.14 18:34:30 INFO  time: compiled res_energy in 1.39s
+2023.05.14 18:35:49 INFO  compiling res_energy (1 scala source)
+2023.05.14 18:35:49 INFO  time: compiled res_energy in 0.8s
+2023.05.14 18:36:04 INFO  compiling res_energy (1 scala source)
+2023.05.14 18:36:04 INFO  time: compiled res_energy in 0.35s
+2023.05.14 18:36:49 INFO  compiling res_energy (2 scala sources)
+2023.05.14 18:36:51 INFO  time: compiled res_energy in 1.82s
+2023.05.14 18:58:24 INFO  compiling res_energy (1 scala source)
+2023.05.14 18:58:27 INFO  time: compiled res_energy in 2.1s
+2023.05.14 18:59:23 INFO  compiling res_energy (1 scala source)
+2023.05.14 18:59:23 INFO  time: compiled res_energy in 0.94s
+2023.05.14 19:04:05 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:04:07 INFO  time: compiled res_energy in 1.39s
+2023.05.14 19:08:51 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:08:53 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.14 19:08:53 INFO  time: compiled res_energy in 2.5s
+2023.05.14 19:09:30 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:09:31 INFO  time: compiled res_energy in 1.51s
+2023.05.14 19:18:42 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:18:44 INFO  time: compiled res_energy in 1.16s
+2023.05.14 19:18:46 INFO  Deduplicating compilation of res_energy from bsp client 'Metals 0.11.12' (since 20h 3m 38.561s)
+мая 14, 2023 7:20:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2003
+мая 14, 2023 7:20:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2090
+мая 14, 2023 7:20:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2100
+2023.05.14 19:21:10 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:21:11 INFO  time: compiled res_energy in 1.31s
+2023.05.14 19:25:12 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:25:14 INFO  time: compiled res_energy in 1.66s
+2023.05.14 19:26:12 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:26:13 INFO  time: compiled res_energy in 1.1s
+мая 14, 2023 7:26:41 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+мая 14, 2023 7:26:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 5
+java.lang.ArrayIndexOutOfBoundsException: 5
+	at scala.reflect.internal.util.BatchSourceFile.findLine$1(SourceFile.scala:218)
+	at scala.reflect.internal.util.BatchSourceFile.offsetToLine(SourceFile.scala:221)
+	at scala.meta.internal.pc.MetalsGlobal$XtensionPositionMetals.toPos(MetalsGlobal.scala:624)
+	at scala.meta.internal.pc.MetalsGlobal$XtensionPositionMetals.toLsp(MetalsGlobal.scala:637)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.collect(PcDocumentHighlightProvider.scala:20)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.collect(PcDocumentHighlightProvider.scala:8)
+	at scala.meta.internal.pc.PcCollector.scala$meta$internal$pc$PcCollector$$collect$1(PcCollector.scala:297)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:342)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:169)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:165)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:169)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:165)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:169)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:165)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:169)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:165)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.traverseSought(PcCollector.scala:455)
+	at scala.meta.internal.pc.PcCollector.resultWithSought(PcCollector.scala:271)
+	at scala.meta.internal.pc.PcCollector.result(PcCollector.scala:219)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:27)
+
+2023.05.14 19:26:48 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:26:48 INFO  time: compiled res_energy in 0.2s
+2023.05.14 19:27:05 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:27:06 INFO  time: compiled res_energy in 1s
+2023.05.14 19:27:08 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:27:08 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\DataGenerator.scala
+2023.05.14 19:27:08 INFO  time: compiled res_energy in 0.91s
+мая 14, 2023 7:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2718
+2023.05.14 19:31:04 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:31:05 INFO  time: compiled res_energy in 1.48s
+мая 14, 2023 7:32:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3212
+2023.05.14 19:32:07 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:32:07 INFO  time: compiled res_energy in 0.37s
+2023.05.14 19:32:16 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:32:16 INFO  time: compiled res_energy in 0.28s
+2023.05.14 19:32:43 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:32:43 INFO  time: compiled res_energy in 0.27s
+2023.05.14 19:34:22 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:9:158: stale bloop error: value main is not a member of object DataGenerator
+did you mean wait?
+      case "Option 1" => println(s"Welcome to the TimePassing sub-programm, it will allow you to speed up time to recieve data generated in the mean time! ${DataGenerator.main()}")  
+                                                                                                                                                             ^^^^^^^^^^^^^^^^^^
+2023.05.14 19:34:22 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:9:158: stale bloop error: value main is not a member of object DataGenerator
+did you mean wait?
+      case "Option 1" => println(s"Welcome to the TimePassing sub-programm, it will allow you to speed up time to recieve data generated in the mean time! ${DataGenerator.main()}")  
+                                                                                                                                                             ^^^^^^^^^^^^^^^^^^
+2023.05.14 19:34:22 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:9:158: stale bloop error: value main is not a member of object DataGenerator
+did you mean wait?
+      case "Option 1" => println(s"Welcome to the TimePassing sub-programm, it will allow you to speed up time to recieve data generated in the mean time! ${DataGenerator.main()}")  
+                                                                                                                                                             ^^^^^^^^^^^^^^^^^^
+2023.05.14 19:34:22 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:9:158: stale bloop error: value main is not a member of object DataGenerator
+did you mean wait?
+      case "Option 1" => println(s"Welcome to the TimePassing sub-programm, it will allow you to speed up time to recieve data generated in the mean time! ${DataGenerator.main()}")  
+                                                                                                                                                             ^^^^^^^^^^^^^^^^^^
+2023.05.14 19:34:22 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:9:158: stale bloop error: value main is not a member of object DataGenerator
+did you mean wait?
+      case "Option 1" => println(s"Welcome to the TimePassing sub-programm, it will allow you to speed up time to recieve data generated in the mean time! ${DataGenerator.main()}")  
+                                                                                                                                                             ^^^^^^^^^^^^^^^^^^
+2023.05.14 19:34:23 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:9:158: stale bloop error: value main is not a member of object DataGenerator
+did you mean wait?
+      case "Option 1" => println(s"Welcome to the TimePassing sub-programm, it will allow you to speed up time to recieve data generated in the mean time! ${DataGenerator.main()}")  
+                                                                                                                                                             ^^^^^^^^^^^^^^^^^^
+2023.05.14 19:35:46 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:35:47 INFO  time: compiled res_energy in 1.06s
+2023.05.14 19:35:47 INFO  compiling res_energy (2 scala sources)
+2023.05.14 19:35:47 INFO  time: compiled res_energy in 0.28s
+2023.05.14 19:35:49 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:35:51 INFO  time: compiled res_energy in 1.23s
+2023.05.14 19:35:51 INFO  compiling res_energy (2 scala sources)
+2023.05.14 19:35:51 INFO  time: compiled res_energy in 0.19s
+мая 14, 2023 7:36:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3586
+2023.05.14 19:37:25 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:37:25 INFO  time: compiled res_energy in 1s
+2023.05.14 19:37:25 INFO  compiling res_energy (2 scala sources)
+2023.05.14 19:37:26 INFO  time: compiled res_energy in 0.23s
+2023.05.14 19:37:56 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:37:56 INFO  time: compiled res_energy in 0.97s
+2023.05.14 19:37:56 INFO  compiling res_energy (2 scala sources)
+2023.05.14 19:37:57 INFO  time: compiled res_energy in 0.2s
+2023.05.14 19:39:03 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:39:04 INFO  time: compiled res_energy in 1.08s
+мая 14, 2023 7:45:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4078
+2023.05.14 19:45:39 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:45:41 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.05.14 19:45:41 INFO  time: compiled res_energy in 1.31s
+2023.05.14 19:45:43 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:35 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:42 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:42 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:45 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+мая 14, 2023 7:47:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4177
+2023.05.14 19:47:47 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:55 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:55 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:55 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:56 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:56 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:57 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:47:59 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:48:00 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\Menu.scala
+2023.05.14 19:48:00 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:48:01 INFO  time: compiled res_energy in 1.59s
+2023.05.14 19:49:30 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:49:32 INFO  time: compiled res_energy in 1.33s
+мая 14, 2023 7:53:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4544
+2023.05.14 19:54:00 WARN  Using indexes to guess the definition of String
+мая 14, 2023 7:54:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: jar%3Afile%3A%2F%2F%2FC%3A%2FUsers%2FLev%2FAppData%2FLocal%2FCoursier%2Fcache%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-lang%2Fscala-library%2F2.12.17%2Fscala-library-2.12.17-sources.jar%21%2Fscala%2Fmath%2FOrdering.scala:20: error: ; expected but package found
+package math
+^
+jar%3Afile%3A%2F%2F%2FC%3A%2FUsers%2FLev%2FAppData%2FLocal%2FCoursier%2Fcache%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-lang%2Fscala-library%2F2.12.17%2Fscala-library-2.12.17-sources.jar%21%2Fscala%2Fmath%2FOrdering.scala:20: error: ; expected but package found
+package math
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:391)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:407)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:411)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4524)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4524)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4477)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+мая 14, 2023 7:54:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4613
+2023.05.14 19:54:20 INFO  compiling res_energy (1 scala source)
+2023.05.14 19:54:21 INFO  time: compiled res_energy in 1.5s
+мая 14, 2023 8:02:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5220
+2023.05.14 20:05:04 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:05:05 INFO  time: compiled res_energy in 1.3s
+2023.05.14 20:08:05 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:08:06 INFO  time: compiled res_energy in 1.09s
+2023.05.14 20:11:36 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:11:37 INFO  time: compiled res_energy in 1.21s
+2023.05.14 20:33:19 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:33:19 INFO  time: compiled res_energy in 0.49s
+Exception in thread "pool-4-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2023.05.14 20:33:32 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:33:32 INFO  time: compiled res_energy in 0.43s
+2023.05.14 20:33:42 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:32:12: stale bloop error: not found: value EnergyType
+      case EnergyType.Wind => "W"
+           ^^^^^^^^^^
+2023.05.14 20:33:42 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:33:12: stale bloop error: not found: value EnergyType
+      case EnergyType.Hydro => "H"
+           ^^^^^^^^^^
+2023.05.14 20:33:42 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:34:12: stale bloop error: not found: value EnergyType
+      case EnergyType.Solar => "S"
+           ^^^^^^^^^^
+2023.05.14 20:33:42 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:36:27: stale bloop error: value calculateEnergy is not a member of EnergyGenerator
+    val energyGenerated = energyGen.calculateEnergy()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.14 20:33:42 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:32:12: stale bloop error: not found: value EnergyType
+      case EnergyType.Wind => "W"
+           ^^^^^^^^^^
+2023.05.14 20:33:42 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:33:12: stale bloop error: not found: value EnergyType
+      case EnergyType.Hydro => "H"
+           ^^^^^^^^^^
+2023.05.14 20:33:42 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:34:12: stale bloop error: not found: value EnergyType
+      case EnergyType.Solar => "S"
+           ^^^^^^^^^^
+2023.05.14 20:33:42 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:36:27: stale bloop error: value calculateEnergy is not a member of EnergyGenerator
+    val energyGenerated = energyGen.calculateEnergy()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.14 20:33:45 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:33:45 INFO  time: compiled res_energy in 0.38s
+мая 14, 2023 8:33:46 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+мая 14, 2023 8:34:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6231
+2023.05.14 20:34:19 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:34:19 INFO  time: compiled res_energy in 0.39s
+2023.05.14 20:34:45 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:34:45 INFO  time: compiled res_energy in 0.33s
+2023.05.14 20:34:47 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:34:47 INFO  time: compiled res_energy in 0.33s
+2023.05.14 20:39:02 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:39:02 INFO  time: compiled res_energy in 0.35s
+2023.05.14 20:40:34 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:40:34 INFO  time: compiled res_energy in 0.35s
+2023.05.14 20:40:56 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:40:56 INFO  time: compiled res_energy in 0.47s
+2023.05.14 20:46:24 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:46:24 INFO  time: compiled res_energy in 0.38s
+2023.05.14 20:46:37 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:46:37 INFO  time: compiled res_energy in 0.32s
+2023.05.14 20:46:53 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:46:55 INFO  time: compiled res_energy in 1.91s
+2023.05.14 20:48:46 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:48:46 INFO  time: compiled res_energy in 0.35s
+2023.05.14 20:49:09 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:49:09 INFO  time: compiled res_energy in 0.32s
+2023.05.14 20:49:38 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:49:38 INFO  time: compiled res_energy in 0.35s
+2023.05.14 20:50:13 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:50:15 INFO  time: compiled res_energy in 1.81s
+Exception in thread "pool-4-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2023.05.14 20:50:40 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:50:41 INFO  time: compiled res_energy in 1.53s
+2023.05.14 20:54:47 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:54:48 INFO  time: compiled res_energy in 1.71s
+2023.05.14 20:54:51 INFO  compiling res_energy (1 scala source)
+2023.05.14 20:54:52 INFO  time: compiled res_energy in 1.25s
+2023.05.15 20:27:08 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Lev\Desktop\Scala Project\res_energy' for client Visual Studio Code 1.77.3.
+мая 15, 2023 8:27:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+мая 15, 2023 8:27:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+мая 15, 2023 8:27:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+мая 15, 2023 8:27:15 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Lev\Desktop\Scala Project\res_energy\.metals\metals (H2 2.1)
+мая 15, 2023 8:27:15 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.155s)
+мая 15, 2023 8:27:15 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+мая 15, 2023 8:27:15 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.15 20:27:16 INFO  time: initialize in 6.86s
+2023.05.15 20:27:19 INFO  Attempting to connect to the build server...
+2023.05.15 20:27:19 INFO  skipping build import with status 'Installed'
+2023.05.15 20:27:19 INFO  Bloop uses C:\Program Files (x86)\Java\jre-1.8 defined at C:\Users\Lev\.bloop\bloop.json
+2023.05.15 20:27:33 INFO  no build target found for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.15 20:27:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lev\Desktop\Scala Project\res_energy\.metals\bsp.trace.json or C:\Users\Lev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+мая 15, 2023 8:27:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.05.15 20:27:37 INFO  Attempting to connect to the build server...
+2023.05.15 20:27:37 INFO  Bloop uses C:\Program Files (x86)\Java\jre-1.8 defined at C:\Users\Lev\.bloop\bloop.json
+2023.05.15 20:27:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Lev\Desktop\Scala Project\res_energy\project\.metals\bsp.trace.json or C:\Users\Lev\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.15 20:27:37 INFO  time: Connected to build server in 18s
+2023.05.15 20:27:37 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.15 20:27:38 INFO  time: Imported build in 0.35s
+2023.05.15 20:27:39 INFO  time: code lens generation in 20s
+2023.05.15 20:27:42 INFO  no build target found for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.15 20:27:43 INFO  time: code lens generation in 5.96s
+2023.05.15 20:27:44 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre-1.8\src.zip, C:\Program Files (x86)\Java\jre-1.8\lib\src.zip. Java symbols will not be available.
+2023.05.15 20:27:46 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre-1.8\src.zip, C:\Program Files (x86)\Java\jre-1.8\lib\src.zip. Java symbols will not be available.
+2023.05.15 20:27:46 WARN  Could not find java sources in C:\Program Files (x86)\Java\src.zip, C:\Program Files (x86)\Java\lib\src.zip, C:\Program Files (x86)\Java\jre-1.8\src.zip, C:\Program Files (x86)\Java\jre-1.8\lib\src.zip. Java symbols will not be available.
+2023.05.15 20:27:46 INFO  time: indexed workspace in 8.14s
+2023.05.15 20:27:48 INFO  compiling res_energy (5 scala sources)
+2023.05.15 20:27:50 INFO  time: code lens generation in 26s
+2023.05.15 20:28:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.05.15 20:28:04 INFO  time: compiled res_energy in 16s
+2023.05.15 20:43:17 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:43:17 INFO  time: compiled res_energy in 0.57s
+2023.05.15 20:47:30 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:47:30 INFO  time: compiled res_energy in 0.49s
+мая 15, 2023 8:47:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 347
+мая 15, 2023 8:47:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 349
+2023.05.15 20:48:02 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:48:04 INFO  time: compiled res_energy in 2.07s
+2023.05.15 20:48:04 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:48:04 INFO  time: compiled res_energy in 0.59s
+2023.05.15 20:51:21 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:51:23 INFO  time: compiled res_energy in 2.13s
+2023.05.15 20:52:44 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:52:44 INFO  time: compiled res_energy in 0.53s
+2023.05.15 20:53:11 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:53:13 INFO  time: compiled res_energy in 1.7s
+2023.05.15 20:54:16 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:54:19 INFO  time: compiled res_energy in 3.3s
+2023.05.15 20:58:12 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:58:12 INFO  time: compiled res_energy in 0.91s
+2023.05.15 20:58:16 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:16 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:17 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:17 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:17 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:18 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:19 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:20 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:20 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:21 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:21 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:21 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:23 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:25 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:26 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:26 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:28 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:28 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:29 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:31 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:31 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:32 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:33 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:33 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:37 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:38 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:38 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:38 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+мая 15, 2023 8:58:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1149
+2023.05.15 20:58:39 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:42 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:42 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:43 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:44 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:44 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:45 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+мая 15, 2023 8:58:46 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.05.15 20:58:46 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:47 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:47 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:47 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:47 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:49 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:58:49 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:12 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:14 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:14 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:15 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:16 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:19 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:20 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:20 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:22 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:28 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:29 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:31 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:31 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:32 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:59:32 INFO  time: compiled res_energy in 0.72s
+2023.05.15 20:59:35 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:40 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:41 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+мая 15, 2023 8:59:41 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: _empty_/EnergyGenerator.advance().(generator)
+illegal cyclic reference involving object EnergyGenerator
+2023.05.15 20:59:41 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:41 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:42 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:43 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:44 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 20:59:44 INFO  compiling res_energy (1 scala source)
+2023.05.15 20:59:48 INFO  time: compiled res_energy in 3.39s
+мая 15, 2023 9:04:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1503
+2023.05.15 21:04:46 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:04:48 INFO  time: compiled res_energy in 1.54s
+мая 15, 2023 9:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1762
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala, 67, 67, 81)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala, 67, 67, 74)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala, 67, 67, 76)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala, 67, 67, 88)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala, 67, 67, 88)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/REPS.scala, 67, 67, 88)
+мая 15, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1866
+мая 15, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1867
+мая 15, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1868
+мая 15, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1873
+мая 15, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1874
+мая 15, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1870
+мая 15, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1876
+мая 15, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1877
+2023.05.15 21:07:23 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:07:25 INFO  time: compiled res_energy in 2.4s
+2023.05.15 21:07:50 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:07:50 INFO  time: compiled res_energy in 0.43s
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 918)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 911)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 912)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 911)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 918)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 911)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 912)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 913)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/Menu.scala, 904, 904, 925)
+2023.05.15 21:10:26 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:10:26 INFO  time: compiled res_energy in 0.8s
+2023.05.15 21:10:38 INFO  compiling res_energy (1 scala source)
+мая 15, 2023 9:10:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2431
+2023.05.15 21:10:42 INFO  time: compiled res_energy in 4.33s
+2023.05.15 21:10:42 INFO  compiling res_energy (2 scala sources)
+2023.05.15 21:10:42 INFO  time: compiled res_energy in 0.61s
+мая 15, 2023 9:10:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2444
+2023.05.15 21:10:45 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:10:49 INFO  time: compiled res_energy in 3.98s
+2023.05.15 21:10:49 INFO  compiling res_energy (2 scala sources)
+2023.05.15 21:10:52 INFO  time: compiled res_energy in 2.97s
+2023.05.15 21:11:22 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:11:27 INFO  time: compiled res_energy in 5.03s
+мая 15, 2023 9:13:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2561
+2023.05.15 21:16:18 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:16:20 INFO  time: compiled res_energy in 2.13s
+2023.05.15 21:16:33 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:16:33 INFO  time: compiled res_energy in 0.51s
+2023.05.15 21:16:43 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:49:68: stale bloop error: not found: value time
+        writer.write(s"$name,$energyType,$energyGenerated,$status,$time")
+                                                                   ^^^^
+2023.05.15 21:16:43 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:50:63: stale bloop error: not found: value time
+        println(s"$name,$energyType,$energyGenerated,$status,$time")
+                                                              ^^^^
+2023.05.15 21:16:43 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:49:68: stale bloop error: not found: value time
+        writer.write(s"$name,$energyType,$energyGenerated,$status,$time")
+                                                                   ^^^^
+2023.05.15 21:16:43 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:50:63: stale bloop error: not found: value time
+        println(s"$name,$energyType,$energyGenerated,$status,$time")
+                                                              ^^^^
+2023.05.15 21:16:44 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:16:46 INFO  time: compiled res_energy in 2.06s
+мая 15, 2023 9:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3287
+2023.05.15 21:24:54 INFO  Deduplicating compilation of res_energy from bsp client 'Metals 0.11.12' (since 57m 17.314s)
+2023.05.15 21:24:54 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:24:54 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:24:54 INFO  time: compiled res_energy in 0.93s
+мая 15, 2023 9:25:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3560
+мая 15, 2023 9:25:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3566
+мая 15, 2023 9:25:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3568
+2023.05.15 21:25:39 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:25:41 INFO  time: compiled res_energy in 1.42s
+мая 15, 2023 9:26:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3692
+мая 15, 2023 9:27:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3809
+мая 15, 2023 9:27:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3824
+Exception in thread "pool-5-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+Exception in thread "pool-5-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2023.05.15 21:28:33 INFO  compiling res_energy (1 scala source)
+мая 15, 2023 9:28:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4024
+2023.05.15 21:28:33 INFO  time: compiled res_energy in 0.95s
+2023.05.15 21:28:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:13:14: stale bloop error: no arguments allowed for nullary method modify_2: (): EnergyGenerator
+    modify_2(generator)
+             ^^^^^^^^^
+2023.05.15 21:28:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:16:45: stale bloop error: type mismatch;
+ found   : Unit
+ required: EnergyGenerator
+> {
+> 
+>   }
+2023.05.15 21:28:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:64:27: stale bloop error: unknown parameter name: status
+        modify(generator, status = "UNOPERATIONAL")
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 21:28:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:64:9: stale bloop error: too many arguments (found 2, expected 1) for method modify: (generator: EnergyGenerator): EnergyGenerator
+        modify(generator, status = "UNOPERATIONAL")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 21:28:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:13:14: stale bloop error: no arguments allowed for nullary method modify_2: (): EnergyGenerator
+    modify_2(generator)
+             ^^^^^^^^^
+2023.05.15 21:28:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:16:45: stale bloop error: type mismatch;
+ found   : Unit
+ required: EnergyGenerator
+> {
+> 
+>   }
+2023.05.15 21:28:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:64:27: stale bloop error: unknown parameter name: status
+        modify(generator, status = "UNOPERATIONAL")
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 21:28:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:64:9: stale bloop error: too many arguments (found 2, expected 1) for method modify: (generator: EnergyGenerator): EnergyGenerator
+        modify(generator, status = "UNOPERATIONAL")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 21:28:49 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:28:49 INFO  time: compiled res_energy in 0.79s
+2023.05.15 21:29:15 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:29:15 INFO  time: compiled res_energy in 0.52s
+2023.05.15 21:29:21 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:29:21 INFO  time: compiled res_energy in 0.84s
+мая 15, 2023 9:30:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4228
+2023.05.15 21:30:20 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:30:22 INFO  time: compiled res_energy in 1.37s
+мая 15, 2023 9:30:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4280
+мая 15, 2023 9:30:34 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+мая 15, 2023 9:30:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4329
+мая 15, 2023 9:30:45 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: _empty_/EnergyGenerator.defectChance().(generator)
+illegal cyclic reference involving object EnergyGenerator
+мая 15, 2023 9:30:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4386
+мая 15, 2023 9:31:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+мая 15, 2023 9:31:08 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: _empty_/EnergyGenerator.defectChance().(generator)
+illegal cyclic reference involving object EnergyGenerator
+мая 15, 2023 9:31:09 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: _empty_/EnergyGenerator.defectChance().(generator)
+illegal cyclic reference involving object EnergyGenerator
+2023.05.15 21:31:39 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:31:43 INFO  time: compiled res_energy in 4.31s
+2023.05.15 21:31:49 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:31:53 INFO  time: compiled res_energy in 4.42s
+мая 15, 2023 9:32:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4854
+мая 15, 2023 9:32:17 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: _empty_/EnergyGenerator#efficiency.
+illegal cyclic reference involving object EnergyGenerator
+2023.05.15 21:32:29 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:32:29 INFO  time: compiled res_energy in 0.9s
+мая 15, 2023 9:32:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4968
+мая 15, 2023 9:32:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4992
+2023.05.15 21:33:26 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:33:26 INFO  time: compiled res_energy in 0.88s
+мая 15, 2023 9:33:38 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+мая 15, 2023 9:36:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5216
+2023.05.15 21:36:20 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:55:43: stale bloop error: not found: value energyGenerated
+        writer.write(s"$name,$energyType,$energyGenerated,$status,$stamp")
+                                          ^^^^^^^^^^^^^^^
+2023.05.15 21:36:20 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:56:38: stale bloop error: not found: value energyGenerated
+        println(s"$name,$energyType,$energyGenerated,$status,$stamp")
+                                     ^^^^^^^^^^^^^^^
+2023.05.15 21:36:20 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:55:43: stale bloop error: not found: value energyGenerated
+        writer.write(s"$name,$energyType,$energyGenerated,$status,$stamp")
+                                          ^^^^^^^^^^^^^^^
+2023.05.15 21:36:20 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:56:38: stale bloop error: not found: value energyGenerated
+        println(s"$name,$energyType,$energyGenerated,$status,$stamp")
+                                     ^^^^^^^^^^^^^^^
+мая 15, 2023 9:36:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5306
+2023.05.15 21:36:52 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:55:43: stale bloop error: not found: value energyGenerated
+        writer.write(s"$name,$energyType,$energyGenerated,$status,$stamp")
+                                          ^^^^^^^^^^^^^^^
+2023.05.15 21:36:52 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:56:38: stale bloop error: not found: value energyGenerated
+        println(s"$name,$energyType,$energyGenerated,$status,$stamp")
+                                     ^^^^^^^^^^^^^^^
+2023.05.15 21:36:52 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:55:43: stale bloop error: not found: value energyGenerated
+        writer.write(s"$name,$energyType,$energyGenerated,$status,$stamp")
+                                          ^^^^^^^^^^^^^^^
+2023.05.15 21:36:52 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/EnergyGenerator.scala:56:38: stale bloop error: not found: value energyGenerated
+        println(s"$name,$energyType,$energyGenerated,$status,$stamp")
+                                     ^^^^^^^^^^^^^^^
+2023.05.15 21:37:10 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:37:13 INFO  time: compiled res_energy in 3.47s
+2023.05.15 21:37:34 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:37:37 INFO  time: compiled res_energy in 3.54s
+2023.05.15 21:38:08 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:38:11 INFO  time: compiled res_energy in 3.26s
+2023.05.15 21:40:08 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:40:08 INFO  time: compiled res_energy in 0.42s
+2023.05.15 21:40:18 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:40:18 INFO  time: compiled res_energy in 0.42s
+2023.05.15 21:40:27 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:40:27 INFO  time: compiled res_energy in 0.36s
+2023.05.15 21:40:32 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:40:33 INFO  time: compiled res_energy in 1.92s
+2023.05.15 21:40:50 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:40:52 INFO  time: compiled res_energy in 1.7s
+мая 15, 2023 9:41:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5868
+2023.05.15 21:41:34 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:41:36 INFO  time: compiled res_energy in 1.8s
+мая 15, 2023 9:42:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5946
+2023.05.15 21:42:21 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:42:21 INFO  time: compiled res_energy in 0.47s
+2023.05.15 21:42:24 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:42:24 INFO  time: compiled res_energy in 0.21s
+2023.05.15 21:42:26 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:42:28 INFO  time: compiled res_energy in 1.86s
+2023.05.15 21:44:29 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:44:30 INFO  time: compiled res_energy in 1.18s
+мая 15, 2023 9:45:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6119
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 97, 97, 111)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 97, 97, 104)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 97, 97, 105)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 97, 97, 106)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 97, 97, 118)
+2023.05.15 21:47:37 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:47:37 INFO  time: compiled res_energy in 0.23s
+2023.05.15 21:47:45 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:47:46 INFO  time: compiled res_energy in 1.16s
+2023.05.15 21:47:46 INFO  compiling res_energy (2 scala sources)
+2023.05.15 21:47:46 INFO  time: compiled res_energy in 0.2s
+2023.05.15 21:47:53 INFO  compiling res_energy (2 scala sources)
+2023.05.15 21:47:54 INFO  time: compiled res_energy in 1.45s
+мая 15, 2023 9:49:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6653
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 759)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 752)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 753)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 754)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 753)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 754)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 755)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 766)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 766)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 745, 745, 766)
+2023.05.15 21:51:03 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:51:03 INFO  time: compiled res_energy in 0.3s
+2023.05.15 21:51:05 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:51:05 INFO  time: compiled res_energy in 0.27s
+мая 15, 2023 9:52:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7019
+2023.05.15 21:52:15 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:52:15 INFO  time: compiled res_energy in 0.25s
+2023.05.15 21:52:17 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:19:9: stale bloop error: not enough arguments for method writeToCSV: (energyGenerators: List[EnergyGenerator], filename: String): Unit.
+Unspecified value parameter filename.
+        EnergyGenerator.writeToCSV(energyGenerators)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 21:52:17 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:19:9: stale bloop error: not enough arguments for method writeToCSV: (energyGenerators: List[EnergyGenerator], filename: String): Unit.
+Unspecified value parameter filename.
+        EnergyGenerator.writeToCSV(energyGenerators)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 21:52:22 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:52:23 INFO  time: compiled res_energy in 1.04s
+мая 15, 2023 9:52:40 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: _empty_/DataGenerator.main().(energyGenerators)
+illegal cyclic reference involving method main
+2023.05.15 21:52:42 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:52:43 INFO  time: compiled res_energy in 1.12s
+2023.05.15 21:53:37 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:53:37 INFO  time: compiled res_energy in 0.3s
+Exception in thread "pool-5-thread-3" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+Exception in thread "pool-5-thread-4" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2023.05.15 21:53:48 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:53:49 INFO  time: compiled res_energy in 1.48s
+2023.05.15 21:55:33 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:55:35 INFO  time: compiled res_energy in 2.27s
+2023.05.15 21:55:44 INFO  compiling res_energy (1 scala source)
+2023.05.15 21:55:45 INFO  time: compiled res_energy in 1.3s
