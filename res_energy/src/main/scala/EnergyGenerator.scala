@@ -25,7 +25,7 @@ object EnergyGenerator { //to follow the functional prgramming paradigm, every m
     println()
   }
 
-    def writeToCSV(energyGenerators: List[EnergyGenerator], filename: String): Unit = {
+  def writeToCSV(energyGenerators: List[EnergyGenerator], filename: String): List[EnergyGenerator] = {
     val file = new File(filename)
     val fileExists = file.exists()
 
@@ -34,7 +34,7 @@ object EnergyGenerator { //to follow the functional prgramming paradigm, every m
         writer.write("Name,Type,Energy Generated,Status,Timestamp\n")
         println("Name,Type,Energy Generated,Status,Timestamp")
     }
-    energyGenerators.foreach(advance)
+    val energyGenWithNewTime = energyGenerators.map(n => advance(n))
     for (energyGen <- energyGenerators) { //could have actually used foreach, would be more functional programming style, but it is what it is
         val name = energyGen.name
         val energyType = energyGen.types match {
@@ -49,6 +49,7 @@ object EnergyGenerator { //to follow the functional prgramming paradigm, every m
         println(s"$name,$energyType,$energyGenerated,$status,$stamp")
     }
     writer.close()
+    energyGenWithNewTime
     }
     def calculateEnergy(generator: EnergyGenerator): Double = {
       if (generator.status == "UNOPERATABLE"){
