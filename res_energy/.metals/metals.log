@@ -897,3 +897,298 @@ Caused by: java.lang.InterruptedException
 2023.05.15 21:55:35 INFO  time: compiled res_energy in 2.27s
 2023.05.15 21:55:44 INFO  compiling res_energy (1 scala source)
 2023.05.15 21:55:45 INFO  time: compiled res_energy in 1.3s
+2023.05.15 22:01:11 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:01:11 INFO  time: compiled res_energy in 0.27s
+2023.05.15 22:01:13 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\DataGenerator.scala
+2023.05.15 22:01:29 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\DataGenerator.scala
+2023.05.15 22:01:30 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\DataGenerator.scala
+2023.05.15 22:01:31 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\DataGenerator.scala
+2023.05.15 22:01:31 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:01:32 INFO  time: compiled res_energy in 1.42s
+2023.05.15 22:01:58 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:02:00 INFO  time: compiled res_energy in 1.42s
+2023.05.15 22:04:20 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:04:20 INFO  time: compiled res_energy in 0.19s
+2023.05.15 22:04:45 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:04:46 INFO  time: compiled res_energy in 1.26s
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1107, 1107, 1121)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1107, 1107, 1114)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1107, 1107, 1115)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1107, 1107, 1116)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1107, 1107, 1128)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1107, 1107, 1128)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1107, 1107, 1128)
+мая 15, 2023 10:05:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7959
+мая 15, 2023 10:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8059
+2023.05.15 22:06:46 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:06:46 INFO  time: compiled res_energy in 0.31s
+2023.05.15 22:06:49 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:29:28: stale bloop error: not enough arguments for method writeToCSV: (energyGenerators: List[EnergyGenerator], filename: String): Unit.
+Unspecified value parameter filename.
+        repeatFunction(24, EnergyGenerator.writeToCSV(energyGenerators))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 22:06:49 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:29:28: stale bloop error: not enough arguments for method writeToCSV: (energyGenerators: List[EnergyGenerator], filename: String): Unit.
+Unspecified value parameter filename.
+        repeatFunction(24, EnergyGenerator.writeToCSV(energyGenerators))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 22:06:49 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:29:28: stale bloop error: not enough arguments for method writeToCSV: (energyGenerators: List[EnergyGenerator], filename: String): Unit.
+Unspecified value parameter filename.
+        repeatFunction(24, EnergyGenerator.writeToCSV(energyGenerators))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 22:06:49 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:29:28: stale bloop error: not enough arguments for method writeToCSV: (energyGenerators: List[EnergyGenerator], filename: String): Unit.
+Unspecified value parameter filename.
+        repeatFunction(24, EnergyGenerator.writeToCSV(energyGenerators))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 22:06:53 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:06:53 INFO  time: compiled res_energy in 0.25s
+2023.05.15 22:07:28 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:07:28 INFO  time: compiled res_energy in 0.29s
+2023.05.15 22:07:40 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:07:40 INFO  time: compiled res_energy in 0.29s
+2023.05.15 22:07:43 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:07:43 INFO  time: compiled res_energy in 0.3s
+2023.05.15 22:09:14 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:09:14 INFO  time: compiled res_energy in 0.38s
+2023.05.15 22:09:18 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:09:19 INFO  time: compiled res_energy in 1.55s
+2023.05.15 22:11:41 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:11:43 INFO  time: compiled res_energy in 1.77s
+2023.05.15 22:12:20 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:12:21 INFO  time: compiled res_energy in 1.32s
+мая 15, 2023 10:13:22 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: _empty_/DataGenerator.pass24().(energyGenerators)
+illegal cyclic reference involving method pass24
+2023.05.15 22:13:25 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:13:26 INFO  time: compiled res_energy in 1.24s
+2023.05.15 22:17:29 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:17:29 INFO  time: compiled res_energy in 0.48s
+мая 15, 2023 10:17:32 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.05.15 22:17:56 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:17:58 INFO  time: compiled res_energy in 2s
+2023.05.15 22:55:59 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:56:00 INFO  time: compiled res_energy in 1.78s
+2023.05.15 22:56:03 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:56:03 WARN  Could not load snapshot text for C:\Users\Lev\Desktop\Scala Project\res_energy\src\main\scala\EnergyGenerator.scala
+2023.05.15 22:56:04 INFO  time: compiled res_energy in 1.62s
+2023.05.15 22:58:58 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:58:58 INFO  time: compiled res_energy in 0.38s
+2023.05.15 22:59:17 INFO  compiling res_energy (1 scala source)
+2023.05.15 22:59:17 INFO  time: compiled res_energy in 0.37s
+2023.05.15 23:00:17 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:00:17 INFO  time: compiled res_energy in 0.45s
+2023.05.15 23:00:24 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:00:24 INFO  time: compiled res_energy in 0.37s
+2023.05.15 23:00:39 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:00:39 INFO  time: compiled res_energy in 0.34s
+2023.05.15 23:01:06 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:01:06 INFO  time: compiled res_energy in 0.4s
+мая 15, 2023 11:01:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9419
+2023.05.15 23:01:14 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:01:14 INFO  time: compiled res_energy in 0.35s
+2023.05.15 23:01:26 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:01:26 INFO  time: compiled res_energy in 0.31s
+2023.05.15 23:01:35 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:01:35 INFO  time: compiled res_energy in 0.3s
+2023.05.15 23:01:38 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:01:38 INFO  time: compiled res_energy in 0.37s
+2023.05.15 23:01:49 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:01:49 INFO  time: compiled res_energy in 0.41s
+2023.05.15 23:02:01 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:02:01 INFO  time: compiled res_energy in 0.32s
+2023.05.15 23:02:26 INFO  compiling res_energy (2 scala sources)
+2023.05.15 23:02:26 INFO  time: compiled res_energy in 0.47s
+2023.05.15 23:02:37 INFO  compiling res_energy (2 scala sources)
+2023.05.15 23:02:39 INFO  time: compiled res_energy in 2.28s
+2023.05.15 23:02:45 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:02:45 INFO  time: compiled res_energy in 0.32s
+2023.05.15 23:02:48 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:02:48 INFO  time: compiled res_energy in 0.29s
+2023.05.15 23:03:28 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:03:28 INFO  time: compiled res_energy in 0.28s
+2023.05.15 23:03:43 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:03:43 INFO  time: compiled res_energy in 0.33s
+2023.05.15 23:05:34 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:05:34 INFO  time: compiled res_energy in 0.29s
+2023.05.15 23:05:43 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:31:28: stale bloop error: type mismatch;
+ found   : Any
+ required: List[EnergyGenerator]
+        DataGenerator.main(en)
+                           ^^
+2023.05.15 23:05:43 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:31:28: stale bloop error: type mismatch;
+ found   : Any
+ required: List[EnergyGenerator]
+        DataGenerator.main(en)
+                           ^^
+2023.05.15 23:05:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:31:28: stale bloop error: type mismatch;
+ found   : Any
+ required: List[EnergyGenerator]
+        DataGenerator.main(en)
+                           ^^
+2023.05.15 23:05:45 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:31:28: stale bloop error: type mismatch;
+ found   : Any
+ required: List[EnergyGenerator]
+        DataGenerator.main(en)
+                           ^^
+2023.05.15 23:05:46 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:05:46 INFO  time: compiled res_energy in 0.25s
+2023.05.15 23:06:01 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:06:01 INFO  time: compiled res_energy in 0.28s
+2023.05.15 23:06:58 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:34:29: stale bloop error: too many arguments (found 2, expected 1) for method repeat: (n: Int)(f: A => A)(x: A): A
+        val en = repeat(24, EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 23:06:58 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:34:29: stale bloop error: too many arguments (found 2, expected 1) for method repeat: (n: Int)(f: A => A)(x: A): A
+        val en = repeat(24, EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.05.15 23:07:09 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:07:09 INFO  time: compiled res_energy in 0.28s
+2023.05.15 23:07:12 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:07:12 INFO  time: compiled res_energy in 0.26s
+2023.05.15 23:09:08 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:09:08 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:09:08 INFO  time: compiled res_energy in 0.21s
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in (A, B) => ARangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 240, 246, 250)
+2023.05.15 23:09:13 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:09:13 INFO  time: compiled res_energy in 0.35s
+2023.05.15 23:09:31 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:09:31 INFO  time: compiled res_energy in 0.38s
+2023.05.15 23:09:34 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:09:34 INFO  time: compiled res_energy in 0.31s
+2023.05.15 23:09:36 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:09:36 INFO  time: compiled res_energy in 0.29s
+2023.05.15 23:10:38 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:10:38 INFO  time: compiled res_energy in 0.29s
+2023.05.15 23:13:13 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:13:13 INFO  time: compiled res_energy in 0.29s
+2023.05.15 23:13:18 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:13:18 INFO  time: compiled res_energy in 0.25s
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1310, 1310, 1324)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1310, 1310, 1317)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1310, 1310, 1318)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[<error>]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1310, 1310, 1319)
+something's wrong: no file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala in List[EnergyGenerator]RangePosition(file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala, 1310, 1310, 1331)
+2023.05.15 23:14:30 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:14:30 INFO  time: compiled res_energy in 0.27s
+2023.05.15 23:14:42 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:14:42 INFO  time: compiled res_energy in 0.33s
+2023.05.15 23:14:52 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:14:52 INFO  time: compiled res_energy in 0.29s
+2023.05.15 23:14:55 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:14:55 INFO  time: compiled res_energy in 0.27s
+2023.05.15 23:15:02 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:15:02 INFO  time: compiled res_energy in 0.26s
+2023.05.15 23:15:05 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:15:05 INFO  time: compiled res_energy in 0.29s
+2023.05.15 23:16:13 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:16:13 INFO  time: compiled res_energy in 0.24s
+2023.05.15 23:16:19 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:16:21 INFO  time: compiled res_energy in 1.5s
+2023.05.15 23:20:49 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:20:49 INFO  time: compiled res_energy in 0.26s
+2023.05.15 23:21:14 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:21:14 INFO  time: compiled res_energy in 0.27s
+2023.05.15 23:21:18 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:21:18 INFO  time: compiled res_energy in 0.25s
+2023.05.15 23:22:50 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:22:50 INFO  time: compiled res_energy in 0.27s
+2023.05.15 23:23:15 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:23:15 INFO  time: compiled res_energy in 0.24s
+2023.05.15 23:23:25 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:23:25 INFO  time: compiled res_energy in 0.25s
+2023.05.15 23:23:37 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:37:41: stale bloop error: not enough arguments for method repeatFunction: (n: Int, f: () => List[Iterator[Int]]): List[Iterator[Int]].
+Unspecified value parameter f.
+        val en: List[EnergyGenerator] = repeatFunction(24)(_ => EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))(Nil).last
+                                        ^^^^^^^^^^^^^^^^^^
+2023.05.15 23:23:37 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:37:41: stale bloop error: not enough arguments for method repeatFunction: (n: Int, f: () => List[Iterator[Int]]): List[Iterator[Int]].
+Unspecified value parameter f.
+        val en: List[EnergyGenerator] = repeatFunction(24)(_ => EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))(Nil).last
+                                        ^^^^^^^^^^^^^^^^^^
+2023.05.15 23:23:37 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:37:41: stale bloop error: not enough arguments for method repeatFunction: (n: Int, f: () => List[Iterator[Int]]): List[Iterator[Int]].
+Unspecified value parameter f.
+        val en: List[EnergyGenerator] = repeatFunction(24)(_ => EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))(Nil).last
+                                        ^^^^^^^^^^^^^^^^^^
+2023.05.15 23:23:37 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:37:41: stale bloop error: not enough arguments for method repeatFunction: (n: Int, f: () => List[Iterator[Int]]): List[Iterator[Int]].
+Unspecified value parameter f.
+        val en: List[EnergyGenerator] = repeatFunction(24)(_ => EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))(Nil).last
+                                        ^^^^^^^^^^^^^^^^^^
+2023.05.15 23:23:38 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:37:41: stale bloop error: not enough arguments for method repeatFunction: (n: Int, f: () => List[Iterator[Int]]): List[Iterator[Int]].
+Unspecified value parameter f.
+        val en: List[EnergyGenerator] = repeatFunction(24)(_ => EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))(Nil).last
+                                        ^^^^^^^^^^^^^^^^^^
+2023.05.15 23:23:38 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:37:41: stale bloop error: not enough arguments for method repeatFunction: (n: Int, f: () => List[Iterator[Int]]): List[Iterator[Int]].
+Unspecified value parameter f.
+        val en: List[EnergyGenerator] = repeatFunction(24)(_ => EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))(Nil).last
+                                        ^^^^^^^^^^^^^^^^^^
+2023.05.15 23:23:38 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:37:41: stale bloop error: not enough arguments for method repeatFunction: (n: Int, f: () => List[Iterator[Int]]): List[Iterator[Int]].
+Unspecified value parameter f.
+        val en: List[EnergyGenerator] = repeatFunction(24)(_ => EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))(Nil).last
+                                        ^^^^^^^^^^^^^^^^^^
+2023.05.15 23:23:38 INFO  file:///C:/Users/Lev/Desktop/Scala%20Project/res_energy/src/main/scala/DataGenerator.scala:37:41: stale bloop error: not enough arguments for method repeatFunction: (n: Int, f: () => List[Iterator[Int]]): List[Iterator[Int]].
+Unspecified value parameter f.
+        val en: List[EnergyGenerator] = repeatFunction(24)(_ => EnergyGenerator.writeToCSV(energyGenerators, "anton.csv"))(Nil).last
+                                        ^^^^^^^^^^^^^^^^^^
+2023.05.15 23:23:39 INFO  compiling res_energy (1 scala source)
+2023.05.15 23:23:39 INFO  time: compiled res_energy in 0.27s
+2023.05.16 00:15:59 INFO  compiling res_energy (1 scala source)
+2023.05.16 00:15:59 INFO  time: compiled res_energy in 0.32s
+2023.05.16 00:16:12 INFO  compiling res_energy (1 scala source)
+2023.05.16 00:16:12 INFO  time: compiled res_energy in 0.44s
+2023.05.16 00:16:20 INFO  compiling res_energy (1 scala source)
+2023.05.16 00:16:21 INFO  time: compiled res_energy in 1.38s
+2023.05.16 00:16:25 INFO  compiling res_energy (1 scala source)
+2023.05.16 00:16:27 INFO  time: compiled res_energy in 1.46s
+2023.05.16 00:24:03 INFO  compiling res_energy (1 scala source)
+2023.05.16 00:24:03 INFO  time: compiled res_energy in 0.21s
+2023.05.16 00:24:13 INFO  compiling res_energy (1 scala source)
+2023.05.16 00:24:15 INFO  time: compiled res_energy in 1.94s
+2023.05.16 00:24:20 INFO  compiling res_energy (1 scala source)
+2023.05.16 00:24:21 INFO  time: compiled res_energy in 1.67s
+Exception in thread "pool-5-thread-5" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2023.05.16 01:23:21 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:23:21 INFO  time: compiled res_energy in 0.36s
+2023.05.16 01:23:36 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:23:36 INFO  time: compiled res_energy in 0.34s
+2023.05.16 01:23:50 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:23:51 INFO  time: compiled res_energy in 1.46s
+2023.05.16 01:24:45 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:24:45 INFO  time: compiled res_energy in 0.3s
+2023.05.16 01:24:52 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:24:54 INFO  time: compiled res_energy in 1.47s
+2023.05.16 01:25:28 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:25:29 INFO  time: compiled res_energy in 1.17s
+2023.05.16 01:25:34 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:25:34 INFO  time: compiled res_energy in 0.29s
+2023.05.16 01:25:56 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:25:57 INFO  time: compiled res_energy in 1.23s
+2023.05.16 01:31:34 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:31:34 INFO  time: compiled res_energy in 0.31s
+2023.05.16 01:31:39 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:31:39 INFO  time: compiled res_energy in 0.28s
+2023.05.16 01:31:49 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:31:50 INFO  time: compiled res_energy in 1.25s
+Exception in thread "pool-5-thread-6" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2023.05.16 01:32:02 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:32:04 INFO  time: compiled res_energy in 1.57s
+2023.05.16 01:32:21 INFO  compiling res_energy (1 scala source)
+2023.05.16 01:32:22 INFO  time: compiled res_energy in 1.45s
+2023.05.17 23:11:44 INFO  Shutting down server
+2023.05.17 23:11:44 INFO  shutting down Metals
+2023.05.17 23:11:44 INFO  Exiting server

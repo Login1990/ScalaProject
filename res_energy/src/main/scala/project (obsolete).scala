@@ -1,6 +1,6 @@
 import java.io._
 
-trait RenewableEnergySource {
+/*trait RenewableEnergySource {
   def energyGenerated: Double
   def status: String
 }
@@ -159,3 +159,4 @@ object REPS {
     sources.map(_.energyGenerated).sum
   }
 }
+*/

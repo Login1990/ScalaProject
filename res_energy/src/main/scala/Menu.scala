@@ -31,7 +31,7 @@ object Menu { //This is a menu, it will be used to address the fucntions of the 
     }
   }
   def main(generators: List[EnergyGenerator]): Unit = {
-    val options = List("Pass the time", "Option 2", "Print all generators", "Exit")
+    val options = List("Pass the time", "Data analysis", "Print all generators", "Exit")
 
     printMenu(options)
 
@@ -39,8 +39,11 @@ object Menu { //This is a menu, it will be used to address the fucntions of the 
 
     choice match { //tbd
       case "Pass the time" => println(s"Welcome to the TimePassing sub-programm, it will allow you to speed up time to recieve data generated in the mean time!")
-      DataGenerator.main(generators)  
-      case "Option 2" => println("You chose Option 2")
+      DataGenerator.main(generators) 
+      Menu.main(generators) 
+      case "Data analysis" => println("Welcome to data analysis section!")
+      EnergyCalculation.main()
+      Menu.main(generators)
       case "Print all generators" => println("Printing all generators...")
       REPSS.printAllGenerators(generators)
       Menu.main(generators)
